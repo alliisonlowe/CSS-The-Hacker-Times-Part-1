@@ -28,6 +28,17 @@ h1{
     height: 0;
 }
 
+h5{
+    color: #dd3232;
+    font-family: 'Abril Fatface';
+}
+
+p{
+    padding: 1em;
+    text-align: justify;
+}
+
+/*Nav Bar Formatting*/
 .table{
     display: table;
     width: 100%;
@@ -54,8 +65,32 @@ a{
     font-size: small;
 }
 
+/*Title formatting*/
+h2,h4{
+    font-family: 'Roboto Slab';
+    height:1em;
+}
 
+/*More Article Formatting*/
+main>img{
+    width: 700px;
+    object-fit: fill;
+}
 
-
-
-
+.more-articles{
+    border-top: 1px solid #eee;
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+}
+section{
+    width: 50%;
+    padding: 1em;
+}
+section>img{
+    width: 315px;
+    object-fit: fill;
+}
+section>p{
+    float: left;
+}
